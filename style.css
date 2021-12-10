@@ -1,0 +1,655 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.space {    
+    background-image: url(/assets/header-back.png);
+    height: 133.6vh;
+    width: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: 2;
+}
+.star {
+    background-image: url(/assets/star.png);
+    height: 18.7vh; 
+    width: 23.8%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 72.4vh;
+    left: 19%;
+}
+.wars {
+    background-image: url(/assets/wars.png);
+    height: 18.7vh;
+    width: 26%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 72.4vh;
+    left: 64.7%;
+}
+.kylo {
+    background-image: url(/assets/Kylo-Ren-banner\ sem\ fundo.png);
+    height: 163.5vh;
+    width: 70.4%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 10%;
+}
+.legion {
+    background-image: url(/assets/Grupo\ 4.png);
+    height: 28.3vh;
+    width: 9.1%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 102.7vh;
+    left: 79.1%;   
+}
+.comece {
+    background-image: url(/assets/strom\ trupe\ red.png);
+    height: 63.5vh;
+    width: 20.6%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 14.4%;
+    top: 124.6vh;
+    display: flex;
+}
+.menucomece {
+    height: 52vh;
+    width: 80%;
+    position: absolute;
+    top: 7.5%;
+    left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.menucomece a {
+    color: #FFFFFF;
+}
+h1 {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 2.7vw;
+}
+.menucomece p {
+    color:#FFFFFF;
+    text-align: left;
+    font-size: 1.4vw;
+}
+.menucomece button {
+    color: #FFFFFF;
+    font-size: 1.3vw;
+    border: 0.1em solid #FFFFFF;
+    background-color: transparent;
+    padding: 0.5em 1.5em;
+    border-radius: 0.2em;
+    border-width: medium;
+}
+.comecemob {
+    display: none;
+}
+.sobremob {
+    display: none;
+    background-image: url(/assets/Grupo\ sobre\ o\ jogoM.png);
+    width: 80.5%;
+    height: 45.9%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 9.8%;
+    top: 84.5%;
+}
+.reta2 {
+    background-image: url(/assets/Retângulo\ 2.png);
+    height: 230.4vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    z-index: 1;
+}
+.robot {
+    background-image: url(/assets/sta\ uo\ robot.png);
+    height: 230.2vh;
+    width: 42.3%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+}
+.sobre {
+    background-image: url(/assets/Grupo\ sobre\ o\ jogo.png);
+    height: 39.8vh;
+    width: 49.4%;
+    left: 43.2%;
+    top: 44.6vh;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.linha2 {
+    background-image: url(/assets/Linha\ 2.png);
+    height: 0.5vh;
+    width: 78.2%;
+    position: absolute;
+    top: 101.6vh;
+    left: 14.4%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.lord {
+    background-image: url(/assets/lord\ sifh\ 2.png);
+    height: 134.8vh;
+    width: 44%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    top: 105.9vh;
+    left: 14.4%;
+}
+.lordmob {
+    display: none;
+    background-image: url(/assets/lord\ sifh\ 2M.png);
+    width: 46.1%;
+    height: 25.5%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    left: 2.6%;
+    top: 42vh;
+}
+.estrutura {
+    height: 90.5vh;
+    width: 26.9%;
+    position: absolute;    
+    top: 116.3vh;
+    left: 44.2%;
+    display: flex;
+    flex-direction: column;
+}
+h2 {
+    font-size: 3.5vw;
+    text-align: right;
+    padding-top: 3vh;
+}
+ul {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+li {
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 3vh;
+    padding-top: 8.5vh;
+   
+     
+}
+a:hover {
+    background-color: red;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
+.rey {
+    background-image: url(/assets/rey\ star\ wars.png);
+    height: 121.6vh;
+    width: 20.7%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    top: 120.9vh;
+    left: 71.9%;   
+}
+.reymob {
+    display: none;
+    background-image: url(/assets/rey\ star\ warsM.png);
+    height: 25.5%;
+    width: 24.2%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    left: 69.3%;
+    top: 42vh;
+}
+.reta3 {
+    background-image: url(/assets/Retângulo\ 3.png);
+    height: 375.2vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+.atributos {
+    height: 8vh;
+    width: 14.4%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    top: 28.5vh;
+    left: 14.5%;
+}
+.atributos p {
+    font-size: 2.5vw;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-align: center;
+    letter-spacing: 0.1vw;
+    
+}
+.atrib1 {
+    background-image: url(/assets/atrib1.png);
+    height: 80.3vh;
+    width: 42.9%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    left: 7.2%;
+    top: 49.6vh;
+}
+.atrib2 {
+    background-image: url(/assets/atrib2.png);
+    height: 40.1vh;
+    width: 21.3%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    left: 50.2%;
+    top: 49.6vh;
+}
+.atribhover {
+    background-image: url(/assets/Grupo\ novos\ graficos.png);
+    height: 43vh;
+    width: 22.3%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    top: 48vh;
+    left: 49.5%;
+    display: none;
+}
+.atrib2:hover {
+    background-image: url(/assets/Grupo\ novos\ graficos.png);
+}
+.atrib3 {
+    background-image: url(/assets/atrib3.png);
+    height: 40.1vh;
+    width: 21.3%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    top: 49.6vh;
+    left: 71.3%;
+}
+.atrib4 {
+    background-image: url(/assets/atrib4.png);
+    height: 40.1vh;
+    width: 21.3%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    top: 89.7vh;
+    left: 50.2%;
+}
+.atrib5 {
+    background-image: url(/assets/atrib5.png);
+    height: 40.1vh;
+    width: 21.3%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    top: 89.7vh;
+    left: 71.3%;
+}
+.hierarquia {
+    background-image: url(/assets/star-wars_stormtrooper_hierarquia.png);
+    height: 158.4vh;
+    width: 85.4%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    top: 140vh;
+    left: 7.2%;
+}
+.normas {
+    height: 10.4vh;
+    width: 42.2%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    top: 302.4vh;
+    left: 50.4%;
+}
+.normas p {
+    font-size: 1.5vw;
+    color: #FFFFFF;
+    text-align: right;
+}
+.como {
+    height: 8vh;
+    width: 19.7%;
+    position: absolute;
+    left: 43.2%;
+    top: 339.6vh;
+}
+.como p {
+    font-size: 2.5vw;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-align: center;
+    letter-spacing: 0.07vw;
+}
+.trooper {
+    background-image: url(/assets/stortm_trooper_capa_preta-removebg-preview.png);
+    height: 128.9vh;
+    width: 27.9%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    left: 7.2%;
+    top: 308.6vh;
+    z-index: 3;
+}
+.reta4 {
+    background-image: url(/assets/Retângulo\ 4.png);
+    height: 69.4vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    border: 1px solid green;
+    z-index: 2;
+    display: flex;
+}
+.opt1 {
+    height: 42.7vh;
+    width: 15.5%;
+    position: absolute;
+    top: 14.8vh;
+    left: 36%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.opt1 h4, .opt2 h4, .opt3 h4 {
+    text-align: center;
+    font-size: 5vw;
+    padding-top: 1vh;
+}
+.opt1 button, .opt2 button, .opt3 button {
+    color: #FFFFFF;
+    font-size: 2.4vw;
+    height: 13vh;
+    background-color: #000000;
+}
+.opt1 button:hover {
+    background-color: lightcoral;
+}
+.opt2 button:hover {
+    background-color: lightcoral;
+}
+.opt3 button:hover {
+    background-color: lightcoral;
+}
+.opt1 p, .opt2 p, .opt3 p {
+    text-align: center;
+    font-size: 2.1vw;
+}
+.opt2 {
+    height: 42.7vh;
+    width: 15.5%;
+    position: absolute;
+    top: 14.8vh;
+    left: 57.6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.opt3 {
+    height: 42.7vh;
+    width: 15.5%;
+    position: absolute;
+    top: 14.8vh;
+    left: 79.1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.line1 {
+    background-image: url(/assets/Linha\ opt.png);
+    height: 0.5vh;
+    width: 5.2%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    top: 61.6vh;
+    left: 41.3%;
+}
+.line2 {
+    background-image: url(/assets/Linha\ opt.png);
+    height: 0.5vh;
+    width: 5.2%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    top: 61.6vh;
+    left: 62.8%;
+}
+.line3 {
+    background-image: url(/assets/Linha\ opt.png);
+    height: 0.5vh;
+    width: 5.2%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    top: 62.6vh;
+    left: 84.3%;
+}
+.end {
+    display: flex;
+}
+.end {
+    background-image: url(/assets/Retângulo\ 2.png);
+    height: 164.4vh;
+    width: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.boxcoral {
+    background-image: url(/assets/Retângulo\ 18.png);
+    height: 141.1vh;
+    width: 63.9%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    top: 23vh;
+}
+.aplicativo {
+    height: 33.8vh;
+    width: 27.9%;
+    position: absolute;
+    top: 44vh;
+    left: 14.5%;
+}
+.aplicativo h4 {
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: left;
+    font-size: 3vw;
+}
+.aplicativo p {
+    color: #FFFFFF;
+    text-align: left;
+    font-size: 1.5vw;
+    padding-top: 8vh;
+}
+.vader {
+    background-image: url(/assets/darth_vader-sem\ fundo.png);
+    height: 154.5vh;
+    width: 39.3%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    left: 53.3%;
+    top: 2.5vh;
+}
+.google {
+    background-image: url(/assets/disponivel-google-play-badge.png);
+    height: 12.3vh;
+    width: 13.5%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    top: 80.6vh;
+    left: 14.4%;
+}
+.apple {
+    background-image: url(/assets/baixar-na-app-store-botao-2-1024x304.png);
+    height: 12.3vh;
+    width: 13.5%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    top: 80.6vh;
+    left: 28.8%;
+}
+.redline {
+    background-image: url(/assets/Linha\ 10.png);
+    height: 0.5vh;
+    width: 27.9%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    top: 103.2vh;
+    left: 14.4%;
+}
+.logo {
+    background-image: url(/assets/esta\ uo.png);
+    height: 20.1vh;
+    width: 13.4%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    top: 113.6vh;
+    left: 14.5%;
+}
+.politicas {
+    height: 18.5vh;
+    width: 27.9%;
+    position: absolute;
+    top: 138.5vh;
+    left: 14.5%;
+}
+.politicas p {
+    color: #FFFFFF;
+    font-size: 1vw;
+}
+.vadertext {
+    height: 11.5vh;
+    width: 19.4%;
+    position: absolute;
+    top: 145.6vh;
+    left: 70.8%;
+}
+.vadertext p {
+    color: #000000;
+    font-size: 1.5vh;
+    text-align: left;
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .space {
+      background-image: url(/assets/cabeçalho\ mobile.png);   
+      height: 106.8vh;   
+    }
+    .star {
+        display: none;
+    }   
+    .wars {
+        display: none;
+    }   
+    .kylo {
+        display: none;
+    }   
+    .legion {
+        display: none;
+    }   
+   .comece {
+    display: none;
+    }
+    .comecemob {
+        display: initial;
+        background-image: url(/assets/strom\ trupe\ redM.png);
+        height: 48.5%;
+        width: 59.2%;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        position: absolute;
+        top: 32.8%;
+        left: 30.4%;       
+    }  
+    .reta2 {
+        height: 100vh;        
+    }
+    .robot {
+        display: none;
+    }   
+    .sobremob {
+        display: initial;
+    }
+    .robot {
+        display: none;
+    }
+    .sobre {
+        display: none;
+    }
+    .linha2 {
+        width: 80.5%;
+        height: 1vh;
+        position: absolute;
+        left: 9.6%;
+        top: 35vh;
+    }
+    .lord {
+        display: none;
+    }
+    .lordmob {
+        display: initial;
+    }
+    .rey {
+        display: none;
+    }
+    .reymob {
+        display: initial;
+    }
+    .end {
+        display: none;
+    }
+
+
+
+}
