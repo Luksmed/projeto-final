@@ -75,6 +75,7 @@
 }
 .menucomece a {
     color: #FFFFFF;
+    text-decoration: none;
 }
 h1 {
     color: #FFFFFF;
@@ -158,7 +159,7 @@ h1 {
 }
 .lordmob {
     display: none;
-    background-image: url(/assets/lord\ sifh\ 2M.png);
+    background-image: url(/assets/lord\ sifh\ 2.png);
     width: 46.1%;
     height: 25.5%;
     position: absolute;
@@ -195,10 +196,10 @@ li {
    
      
 }
-a:hover {
+.estrutura a:hover {
     background-color: red;
 }
-a {
+.estrutura a {
     text-decoration: none;
     color: #000000;
 }
@@ -279,6 +280,19 @@ a {
     top: 48vh;
     left: 49.5%;
     display: none;
+}
+.atrib2 button {
+    color: transparent;
+    font-size: 2vw;
+    border: none;
+    background-color: transparent;
+    text-align: center;
+    margin-left: 0.4vw;
+    padding: 0.7vh 0.5vw 1vh 0.29vw;
+    margin-top: 29.8vh;  
+}
+.atrib2 a {
+    color: transparent;
 }
 .atrib2:hover {
     background-image: url(/assets/Grupo\ novos\ graficos.png);
@@ -396,6 +410,18 @@ a {
     height: 13vh;
     background-color: #000000;
 }
+.opt1 a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.opt2 a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.opt3 a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
 .opt1 button:hover {
     background-color: lightcoral;
 }
@@ -430,7 +456,6 @@ a {
     justify-content: space-between;
 }
 .line1 {
-    background-image: url(/assets/Linha\ opt.png);
     height: 0.5vh;
     width: 5.2%;
     position: absolute;
@@ -438,6 +463,9 @@ a {
     background-size: 100% 100%;
     top: 61.6vh;
     left: 41.3%;
+}
+.line1 img {
+    width: 100%;
 }
 .line2 {
     background-image: url(/assets/Linha\ opt.png);
@@ -449,6 +477,9 @@ a {
     top: 61.6vh;
     left: 62.8%;
 }
+.line2:hover {
+    background-color: lightcoral;
+}
 .line3 {
     background-image: url(/assets/Linha\ opt.png);
     height: 0.5vh;
@@ -458,6 +489,9 @@ a {
     background-size: 100% 100%;
     top: 62.6vh;
     left: 84.3%;
+}
+.line3:hover {
+    background-color: lightcoral;
 }
 .end {
     display: flex;
@@ -509,7 +543,6 @@ a {
     top: 2.5vh;
 }
 .google {
-    background-image: url(/assets/disponivel-google-play-badge.png);
     height: 12.3vh;
     width: 13.5%;
     position: absolute;
@@ -518,8 +551,11 @@ a {
     top: 80.6vh;
     left: 14.4%;
 }
+.google img {
+    height: 12.3vh;
+    width: 100%;
+}
 .apple {
-    background-image: url(/assets/baixar-na-app-store-botao-2-1024x304.png);
     height: 12.3vh;
     width: 13.5%;
     position: absolute;
@@ -527,6 +563,10 @@ a {
     background-size: 100% 100%;
     top: 80.6vh;
     left: 28.8%;
+}
+.apple img {
+    height: 12.3vh;
+    width: 100%;
 }
 .redline {
     background-image: url(/assets/Linha\ 10.png);
@@ -613,7 +653,7 @@ a {
         left: 30.4%;       
     }  
     .reta2 {
-        height: 100vh;        
+        height: 55vh;        
     }
     .robot {
         display: none;
@@ -640,14 +680,205 @@ a {
     .lordmob {
         display: initial;
     }
+    .estrutura {
+        display: none;
+    }
     .rey {
         display: none;
     }
     .reymob {
         display: initial;
     }
+    .reta3 {
+        height: 220vh;
+    }
+    .atributos {
+        top: 8.41vh;
+        left: 43%;
+    }
+    .atrib1 {
+        height: 27.6vh;
+        width: 80.5%;
+        left: 9.6%;
+        top: 12.6vh;
+    }
+    .atrib2 {
+        height: 27.6vh;
+        width: 80.5%;
+        left: 9.6%;
+        top: 40.4vh;
+    }
+    .atrib3 {
+        height: 27.6vh;
+        width: 80.5%;
+        left: 9.6%;
+        top: 67.8vh;
+    }
+    .atrib4 {
+        height: 27.6vh;
+        width: 80.5%;
+        left: 9.6%;
+        top: 95.3vh;
+    }
+    .atrib5 {
+        height: 27.6vh;
+        width: 80.5%;
+        left: 9.6%;
+        top: 122.9vh;
+    }
+    .hierarquia {
+        height: 33.8vh;
+        width: 100%;
+        left: 0;
+        top: 154.8vh;
+    }
+    .normas {
+        height: 5.1vh;
+        width: 59.7%;
+        top: 188.6vh;
+        left: 30.4%;
+    }
+    .como {
+        height: 2.25vh;
+        width: 30.4%;
+        top: 198.3vh;
+        left: 55.4%;
+    }
+    .trooper {
+        height: 85.3vh;
+        width: 100.8%;
+        top: 205vh;
+        left: -40.2%;
+    }
+    .opt1 {
+        justify-content: center;
+        height: 22vh;
+        width: 38.9%;
+        top: 0vh;
+        left: 51.2%;
+    }
+    .opt2 {
+        justify-content: center;
+        height: 22vh;
+        width: 38.9%;
+        top: 22vh;
+        left: 51.2%;
+    }
+    .opt3 {
+        justify-content: center;
+        height: 20vh;
+        width: 38.9%;
+        top: 44vh;
+        left: 51.2%;        
+    }
+    .opt1 h4, .opt2 h4, .opt3 h4 {
+        font-size: 8vw;
+    }
+    .opt1 button, .opt2 button, .opt3 button {
+        height: 6vh;
+    }
+    .opt1 p, .opt2 p, .opt3 p {
+        font-size: 3.5vw;
+    }
+    .line1 {
+        width: 13%;
+        left: 64.5%;
+        top: 19vh;
+    }
+    .line1 img {
+        width: 100%;
+    }
+    .line2 {
+        width: 13%;
+        left: 64.5%;
+        top: 43vh;
+        
+    }
+    .line3 {
+        width: 13%;
+        left: 64.5%;
+        top: 64vh;
+    }
     .end {
-        display: none;
+        height: 146vh;
+    }
+    .boxcoral {
+        top: 0;
+        width: 100%;
+        height: 102vh;
+    }
+    .aplicativo {
+        height: 22.6vh;
+        width: 80.2%;
+        top: 5.8vh;
+        left: 9.6%;
+    }
+    .aplicativo h4 {
+        color: #FFFFFF;
+        font-weight: bold;
+        text-align: center;
+        font-size: 11vw;
+    }
+    .aplicativo p {
+        color: #FFFFFF;
+        text-align: left;
+        font-size: 3.5vw;
+        padding-top: 2vh;
+    }
+    .google {
+        height: 6.4vh;
+        width: 38.9%;
+        left: 9.6%;
+        top: 31.9vh;
+    }
+    .google img {
+        height: 6.3vh;
+        width: 100%;
+    }    
+    .apple {
+        height: 6.4vh;
+        width: 38.9%;
+        left: 51.4%;
+        top: 31.9vh;
+    }
+    .apple img {
+        height: 6.3vh;
+        width: 100%;
+    }
+    .redline {
+        width: 80.5%;
+        left: 9.6%;
+        top: 41vh;
+    }
+    .logo {
+        height: 12.2vh;
+        width: 44.2%;
+        top: 45.9vh;
+        left: 27.7%;
+    }
+    .politicas {
+        height: 11.8vh;
+        width: 80.2%;
+        left: 9.6%;
+        top: 61.7vh;
+    }
+    .politicas p {
+        font-size: 3.4vw;
+    }
+    .vader {
+        height: 58vh;
+        width: 80.5%;
+        top: 76vh;
+        left: 9.8%;
+    }
+    .vadertext {
+        height: 5.5vh;
+        width: 80.5%;
+        top: 137vh;
+        left: 9.8%;
+    }
+    .vadertext p {
+        font-size: 2.7vw;
     }
 
 
