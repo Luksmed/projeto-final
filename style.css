@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-.space {    
+.fundo1 {    
     background-image: url(/assets/header-back.png);
     height: 133.6vh;
     width: 100%;
@@ -42,7 +42,7 @@
     position: absolute;
     left: 10%;
 }
-.legion {
+.legiao {
     background-image: url(/assets/Grupo\ 4.png);
     height: 28.3vh;
     width: 9.1%;
@@ -52,7 +52,7 @@
     top: 102.7vh;
     left: 79.1%;   
 }
-.comece {
+.boxvermelho {
     background-image: url(/assets/strom\ trupe\ red.png);
     height: 63.5vh;
     width: 20.6%;
@@ -63,7 +63,7 @@
     top: 124.6vh;
     display: flex;
 }
-.menucomece {
+.menubox {
     height: 52vh;
     width: 80%;
     position: absolute;
@@ -74,21 +74,21 @@
     justify-content: space-around;
     align-items: center;
 }
-.menucomece a {
+.menubox a {
     color: #FFFFFF;
     text-decoration: none;
 }
-.menucomece h1 {
+.menubox h1 {
     color: #FFFFFF;
     text-align: center;
     font-size: 2.7vw;
 }
-.menucomece p {
+.menubox p {
     color:#FFFFFF;
     text-align: left;
     font-size: 1.4vw;
 }
-.menucomece button {
+.menubox button {
     color: #FFFFFF;
     font-size: 1.3vw;
     border: 0.1em solid #FFFFFF;
@@ -108,7 +108,7 @@
     left: 9.8%;
     top: 84.5%;
 }
-.reta2 {
+.fundo2 {
     background-image: url(/assets/Retângulo\ 2.png);
     height: 230.4vh;
     width: 100%;
@@ -117,7 +117,7 @@
     position: relative;
     z-index: 1;
 }
-.robot {
+.robo {
     background-image: url(/assets/sta\ uo\ robot.png);
     height: 230.2vh;
     width: 42.3%;
@@ -198,7 +198,7 @@
     top: 120.9vh;
     left: 71.9%;   
 }
-.reta3 {
+.fundo3 {
     background-image: url(/assets/Retângulo\ 3.png);
     height: 375.2vh;
     width: 100%;
@@ -351,18 +351,17 @@
     top: 308.6vh;
     z-index: 3;
 }
-.reta4 {
+.fundo4 {
     background-image: url(/assets/Retângulo\ 4.png);
     height: 69.4vh;
     width: 100%;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     position: relative;
-    border: 1px solid green;
     z-index: 2;
     display: flex;
 }
-.opt1 {
+.opcao1 {
     height: 42.7vh;
     width: 15.5%;
     position: absolute;
@@ -370,46 +369,45 @@
     left: 36%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    
+    justify-content: space-between;    
 }
-.opt1 h4, .opt2 h4, .opt3 h4 {
+.opcao1 h4, .opcao2 h4, .opcao3 h4 {
     text-align: center;
     font-size: 5vw;
     padding-top: 1vh;
 }
-.opt1 button, .opt2 button, .opt3 button {
+.opcao1 button, .opcao2 button, .opcao3 button {
     color: #FFFFFF;
     font-size: 2.4vw;
     height: 13vh;
     background-color: #000000;
 }
-.opt1 a {
+.opcao1 a {
     text-decoration: none;
     color: #FFFFFF;
 }
-.opt2 a {
+.opcao2 a {
     text-decoration: none;
     color: #FFFFFF;
 }
-.opt3 a {
+.opcao3 a {
     text-decoration: none;
     color: #FFFFFF;
 }
-.opt1 button:hover {
+.opcao1 button:hover {
     background-color: #EE3737;
 }
-.opt2 button:hover {
+.opcao2 button:hover {
     background-color: #EE3737;
 }
-.opt3 button:hover {
+.opcao3 button:hover {
     background-color: #EE3737;
 }
-.opt1 p, .opt2 p, .opt3 p {
+.opcao1 p, .opcao2 p, .opcao3 p {
     text-align: center;
     font-size: 2vw;
 }
-.opt2 {
+.opcao2 {
     height: 42.7vh;
     width: 15.5%;
     position: absolute;
@@ -419,7 +417,7 @@
     flex-direction: column;
     justify-content: space-between;
 }
-.opt3 {
+.opcao3 {
     height: 42.7vh;
     width: 15.5%;
     position: absolute;
@@ -429,7 +427,7 @@
     flex-direction: column;
     justify-content: space-between;
 }
-.line1 {
+.reta1 {
     height: 0.5vh;
     width: 8.2%;
     position: absolute;
@@ -438,13 +436,13 @@
     top: 58.6vh;
     left: 39.75%;
 }
-.line1 img {
+.reta1 img {
     width: 100%;
 }
-.line1 a:hover {
+.reta1 a:hover {
     background-color: #EE3737;
 }
-.line2 {
+.reta2 {
     height: 0.5vh;
     width: 8.2%;
     position: absolute;
@@ -453,13 +451,13 @@
     top: 58.6vh;
     left: 61.3%;
 }
-.line2 img {
+.reta2 img {
     width: 100%;
 }
-.line2 a:hover {
+.reta2 a:hover {
     background-color: #EE3737;
 }
-.line3 {
+.reta3 {
     height: 0.5vh;
     width: 8.2%;
     position: absolute;
@@ -468,16 +466,16 @@
     top: 58.6vh;
     left: 82.9%;
 }
-.line3 img {
+.reta3 img {
     width: 100%;
 }
-.line3 a:hover {
+.reta3 a:hover {
     background-color: #EE3737;
 }
-.end {
+.fundo5 {
     display: flex;
 }
-.end {
+.fundo5 {
     background-image: url(/assets/Retângulo\ 2.png);
     height: 164.4vh;
     width: 100%;
@@ -506,17 +504,15 @@
     font-weight: bold;
     text-align: left;
     font-size: 3vw;
-    border: 1px solid black;
 }
-.ultpara {
+.comunidade {
     height: 15.3vh;
     width: 27.9%;
     position: absolute;
     top: 59.5vh;
     left: 14.4%;
-    border: 1px solid blue;
 }
-.ultpara p {
+.comunidade p {
     color: #FFFFFF;
     text-align: left;
     font-size: 1.5vw;
@@ -558,7 +554,7 @@
     height: 12.3vh;
     width: 100%;
 }
-.redline {
+.linhavermelha {
     background-image: url(/assets/Linha\ 10.png);
     height: 0.5vh;
     width: 27.9%;
@@ -568,7 +564,7 @@
     top: 103.2vh;
     left: 14.4%;
 }
-.logo {
+.logosw {
     background-image: url(/assets/esta\ uo.png);
     height: 20.1vh;
     width: 13.4%;
@@ -590,30 +586,21 @@
     font-size: 1.5vw;
     font-family: 'Open Sans', sans-serif;
 }
-.vadertext {
+.textovader {
     height: 11.5vh;
     width: 19.4%;
     position: absolute;
     top: 145.6vh;
     left: 70.8%;
 }
-.vadertext p {
+.textovader p {
     color: #000000;
     font-size: 1.4vw;
     text-align: left;
     position: absolute;
 }
-
-
-
-
-
-
-
-
-
 @media only screen and (max-width: 600px) {
-    .space {
+    .fundo1 {
       background-image: url(/assets/cabeçalho\ mobile.png);   
       height: 106.8vh;   
     }
@@ -626,10 +613,10 @@
     .kylo {
         display: none;
     }   
-    .legion {
+    .legiao {
         display: none;
     }   
-    .comece {
+    .boxvermelho {
         height: 48.5%;
         width: 59.2%;
         left: 30.4%; 
@@ -638,28 +625,28 @@
         background-size: 100% 100%;
         position: absolute;
     }
-    .menucomece {
+    .menubox {
         top: 1vh;
     }
-    .menucomece h1 {
+    .menubox h1 {
         font-size: 6vw;
     }
-    .menucomece p {
+    .menubox p {
         font-size: 3.5vw;
     }
-    .menucomece button {
+    .menubox button {
         font-size: 3vw;
     }
-    .reta2 {
+    .fundo2 {
         height: 62.5vh;        
     }
-    .robot {
+    .robo {
         display: none;
     }   
     .sobremob {
         display: initial;
     }
-    .robot {
+    .robo {
         display: none;
     }
     .sobre {
@@ -699,7 +686,7 @@
         left: 69.3%;
         top: 42vh;
     }
-    .reta3 {
+    .fundo3 {
         height: 220vh;
     }
     .atributos {
@@ -775,56 +762,55 @@
         top: 205vh;
         left: -40.2%;
     }
-    .reta4 {
+    .fundo4 {
         height: 72vh;
     }
-    .opt1 {
+    .opcao1 {
         justify-content: center;
         height: 22vh;
         width: 38.9%;
         top: 0vh;
         left: 51.2%;
     }
-    .opt2 {
+    .opcao2 {
         justify-content: center;
         height: 22vh;
         width: 38.9%;
         top: 22vh;
         left: 51.2%;
     }
-    .opt3 {
+    .opcao3 {
         justify-content: center;
         height: 20vh;
         width: 38.9%;
         top: 44vh;
         left: 51.2%;        
     }
-    .opt1 h4, .opt2 h4, .opt3 h4 {
+    .opcao1 h4, .opcao2 h4, .opcao3 h4 {
         font-size: 8vw;
     }
-    .opt1 button, .opt2 button, .opt3 button {
+    .opcao1 button, .opcao2 button, .opcao3 button {
         height: 6vh;
     }
-    .opt1 p, .opt2 p, .opt3 p {
+    .opcao1 p, .opcao2 p, .opcao3 p {
         font-size: 3.5vw;
     }
-    .line1 {
+    .reta1 {
         width: 13%;
         left: 64.5%;
         top: 21.5vh;
     }
-    .line2 {
+    .reta2 {
         width: 13%;
         left: 64.5%;
-        top: 43vh;
-        
+        top: 43vh;        
     }
-    .line3 {
+    .reta3 {
         width: 13%;
         left: 64.5%;
         top: 64vh;
     }
-    .end {
+    .fundo5 {
         height: 146vh;
     }
     .boxcoral {
@@ -844,13 +830,13 @@
         text-align: center;
         font-size: 11vw;
     }
-    .ultpara {
+    .comunidade {
         height: 12.4vh;
         width: 80.2%;
         top: 16vh;
         left: 9.6%;
     }
-    .ultpara p {
+    .comunidade p {
         font-size: 2.8vw;
     }
     .google {
@@ -871,12 +857,12 @@
     .apple img {
         height: 6.3vh;
     }
-    .redline {
+    .linhavermelha {
         width: 80.5%;
         left: 9.6%;
         top: 41vh;
     }
-    .logo {
+    .logosw {
         height: 12.2vh;
         width: 44.2%;
         top: 45.9vh;
@@ -897,16 +883,13 @@
         top: 76vh;
         left: 9.8%;
     }
-    .vadertext {
+    .textovader {
         height: 5.5vh;
         width: 80.5%;
         top: 137vh;
         left: 9.8%;
     }
-    .vadertext p {
+    .textovader p {
         font-size: 2.7vw;
     }
-
-
-
 }
