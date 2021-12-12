@@ -77,7 +77,7 @@
     color: #FFFFFF;
     text-decoration: none;
 }
-h1 {
+.menucomece h1 {
     color: #FFFFFF;
     text-align: center;
     font-size: 2.7vw;
@@ -95,9 +95,6 @@ h1 {
     padding: 0.5em 1.5em;
     border-radius: 0.2em;
     border-width: medium;
-}
-.comecemob {
-    display: none;
 }
 .sobremob {
     display: none;
@@ -157,17 +154,6 @@ h1 {
     top: 105.9vh;
     left: 14.4%;
 }
-.lordmob {
-    display: none;
-    background-image: url(/assets/lord\ sifh\ 2.png);
-    width: 46.1%;
-    height: 25.5%;
-    position: absolute;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    left: 2.6%;
-    top: 42vh;
-}
 .estrutura {
     height: 90.5vh;
     width: 26.9%;
@@ -177,24 +163,22 @@ h1 {
     display: flex;
     flex-direction: column;
 }
-h2 {
+.estrutura h2 {
     font-size: 3.5vw;
     text-align: right;
     padding-top: 3vh;
 }
-ul {
+.estrutura ul {
     text-align: right;
     display: flex;
     flex-direction: column;
     width: 100%;
 }
-li {
+.estrutura li {
     list-style: none;
     text-transform: uppercase;
     font-size: 3vh;
-    padding-top: 8.5vh;
-   
-     
+    padding-top: 8.5vh;     
 }
 .estrutura a:hover {
     background-color: red;
@@ -212,17 +196,6 @@ li {
     background-size: 100% 100%;
     top: 120.9vh;
     left: 71.9%;   
-}
-.reymob {
-    display: none;
-    background-image: url(/assets/rey\ star\ warsM.png);
-    height: 25.5%;
-    width: 24.2%;
-    position: absolute;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    left: 69.3%;
-    top: 42vh;
 }
 .reta3 {
     background-image: url(/assets/Retângulo\ 3.png);
@@ -433,7 +406,7 @@ li {
 }
 .opt1 p, .opt2 p, .opt3 p {
     text-align: center;
-    font-size: 2.1vw;
+    font-size: 2vw;
 }
 .opt2 {
     height: 42.7vh;
@@ -457,40 +430,47 @@ li {
 }
 .line1 {
     height: 0.5vh;
-    width: 5.2%;
+    width: 8.2%;
     position: absolute;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    top: 61.6vh;
-    left: 41.3%;
+    top: 58.6vh;
+    left: 39.75%;
 }
 .line1 img {
     width: 100%;
 }
+.line1 a:hover {
+    background-color: lightcoral;
+}
 .line2 {
-    background-image: url(/assets/Linha\ opt.png);
     height: 0.5vh;
-    width: 5.2%;
+    width: 8.2%;
     position: absolute;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    top: 61.6vh;
-    left: 62.8%;
+    top: 58.6vh;
+    left: 61.3%;
 }
-.line2:hover {
+.line2 img {
+    width: 100%;
+}
+.line2 a:hover {
     background-color: lightcoral;
 }
 .line3 {
-    background-image: url(/assets/Linha\ opt.png);
     height: 0.5vh;
-    width: 5.2%;
+    width: 8.2%;
     position: absolute;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    top: 62.6vh;
-    left: 84.3%;
+    top: 58.6vh;
+    left: 82.9%;
 }
-.line3:hover {
+.line3 img {
+    width: 100%;
+}
+.line3 a:hover {
     background-color: lightcoral;
 }
 .end {
@@ -514,8 +494,8 @@ li {
     top: 23vh;
 }
 .aplicativo {
-    height: 33.8vh;
-    width: 27.9%;
+    height: 8vh;
+    width: 15.2%;
     position: absolute;
     top: 44vh;
     left: 14.5%;
@@ -526,11 +506,17 @@ li {
     text-align: left;
     font-size: 3vw;
 }
-.aplicativo p {
+.ultpara {
+    height: 15.3vh;
+    width: 27.9%;
+    position: absolute;
+    top: 62.5vh;
+    left: 14.4%;
+}
+.ultpara p {
     color: #FFFFFF;
     text-align: left;
     font-size: 1.5vw;
-    padding-top: 8vh;
 }
 .vader {
     background-image: url(/assets/darth_vader-sem\ fundo.png);
@@ -597,7 +583,7 @@ li {
 }
 .politicas p {
     color: #FFFFFF;
-    font-size: 1vw;
+    font-size: 1.5vw;
 }
 .vadertext {
     height: 11.5vh;
@@ -608,7 +594,7 @@ li {
 }
 .vadertext p {
     color: #000000;
-    font-size: 1.5vh;
+    font-size: 1.4vw;
     text-align: left;
     position: absolute;
 }
@@ -638,22 +624,29 @@ li {
     .legion {
         display: none;
     }   
-   .comece {
-    display: none;
-    }
-    .comecemob {
-        display: initial;
-        background-image: url(/assets/strom\ trupe\ redM.png);
+    .comece {
         height: 48.5%;
         width: 59.2%;
+        left: 30.4%; 
+        top: 32.8%;
         background-repeat: no-repeat;
         background-size: 100% 100%;
         position: absolute;
-        top: 32.8%;
-        left: 30.4%;       
-    }  
+    }
+    .menucomece {
+        top: 1vh;
+    }
+    .menucomece h1 {
+        font-size: 6vw;
+    }
+    .menucomece p {
+        font-size: 3.5vw;
+    }
+    .menucomece button {
+        font-size: 3vw;
+    }
     .reta2 {
-        height: 55vh;        
+        height: 62.5vh;        
     }
     .robot {
         display: none;
@@ -675,26 +668,41 @@ li {
         top: 35vh;
     }
     .lord {
-        display: none;
-    }
-    .lordmob {
-        display: initial;
+        width: 46.1%;
+        height: 26vh;
+        left: 2.6%;
+        top: 42vh;
     }
     .estrutura {
-        display: none;
+        height: 19.1vh;
+        width: 38.9%;
+        left: 30.6%;
+        top: 40vh;
+    }
+    .estrutura h2 {
+        font-size: 3vw;
+        text-align: right;
+        padding-top: 0;
+    }
+    .estrutura li {
+        font-size: 1.5vh;
+        padding-top: 1.2vh;     
     }
     .rey {
-        display: none;
-    }
-    .reymob {
-        display: initial;
+        height: 26vh;
+        width: 24.2%;
+        left: 69.3%;
+        top: 42vh;
     }
     .reta3 {
         height: 220vh;
     }
     .atributos {
-        top: 8.41vh;
-        left: 43%;
+        top: 6.3vh;
+        left: 40%;
+    }
+    .atributos p {
+        font-size: 3.8vw;
     }
     .atrib1 {
         height: 27.6vh;
@@ -707,6 +715,12 @@ li {
         width: 80.5%;
         left: 9.6%;
         top: 40.4vh;
+    }
+    .atrib2 button {
+        font-size: 7vw;       
+        margin-left: 3.1vw;
+        padding: 0.7vh 1vw 1vh 0.29vw;
+        margin-top: 19.8vh;  
     }
     .atrib3 {
         height: 27.6vh;
@@ -738,17 +752,26 @@ li {
         top: 188.6vh;
         left: 30.4%;
     }
+    .normas p {
+        font-size: 3vw;
+    }
     .como {
         height: 2.25vh;
         width: 30.4%;
-        top: 198.3vh;
+        top: 206.3vh;
         left: 55.4%;
+    }
+    .como p {
+        font-size: 3.8vw;
     }
     .trooper {
         height: 85.3vh;
         width: 100.8%;
         top: 205vh;
         left: -40.2%;
+    }
+    .reta4 {
+        height: 72vh;
     }
     .opt1 {
         justify-content: center;
@@ -783,10 +806,7 @@ li {
     .line1 {
         width: 13%;
         left: 64.5%;
-        top: 19vh;
-    }
-    .line1 img {
-        width: 100%;
+        top: 21.5vh;
     }
     .line2 {
         width: 13%;
@@ -808,10 +828,10 @@ li {
         height: 102vh;
     }
     .aplicativo {
-        height: 22.6vh;
-        width: 80.2%;
-        top: 5.8vh;
-        left: 9.6%;
+        height: 7.5vh;
+        width: 78.1%;
+        top: 1.8vh;
+        left: 10.4%;
     }
     .aplicativo h4 {
         color: #FFFFFF;
@@ -819,11 +839,14 @@ li {
         text-align: center;
         font-size: 11vw;
     }
-    .aplicativo p {
-        color: #FFFFFF;
-        text-align: left;
-        font-size: 3.5vw;
-        padding-top: 2vh;
+    .ultpara {
+        height: 12.4vh;
+        width: 80.2%;
+        top: 16vh;
+        left: 9.6%;
+    }
+    .ultpara p {
+        font-size: 3.4vw;
     }
     .google {
         height: 6.4vh;
@@ -833,8 +856,7 @@ li {
     }
     .google img {
         height: 6.3vh;
-        width: 100%;
-    }    
+    }
     .apple {
         height: 6.4vh;
         width: 38.9%;
@@ -843,7 +865,6 @@ li {
     }
     .apple img {
         height: 6.3vh;
-        width: 100%;
     }
     .redline {
         width: 80.5%;
