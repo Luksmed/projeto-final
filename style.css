@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@300&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -181,7 +182,7 @@
     padding-top: 8.5vh;     
 }
 .estrutura a:hover {
-    background-color: red;
+    background-color: #EE3737;
 }
 .estrutura a {
     text-decoration: none;
@@ -396,13 +397,13 @@
     color: #FFFFFF;
 }
 .opt1 button:hover {
-    background-color: lightcoral;
+    background-color: #EE3737;
 }
 .opt2 button:hover {
-    background-color: lightcoral;
+    background-color: #EE3737;
 }
 .opt3 button:hover {
-    background-color: lightcoral;
+    background-color: #EE3737;
 }
 .opt1 p, .opt2 p, .opt3 p {
     text-align: center;
@@ -441,7 +442,7 @@
     width: 100%;
 }
 .line1 a:hover {
-    background-color: lightcoral;
+    background-color: #EE3737;
 }
 .line2 {
     height: 0.5vh;
@@ -456,7 +457,7 @@
     width: 100%;
 }
 .line2 a:hover {
-    background-color: lightcoral;
+    background-color: #EE3737;
 }
 .line3 {
     height: 0.5vh;
@@ -471,7 +472,7 @@
     width: 100%;
 }
 .line3 a:hover {
-    background-color: lightcoral;
+    background-color: #EE3737;
 }
 .end {
     display: flex;
@@ -505,18 +506,21 @@
     font-weight: bold;
     text-align: left;
     font-size: 3vw;
+    border: 1px solid black;
 }
 .ultpara {
     height: 15.3vh;
     width: 27.9%;
     position: absolute;
-    top: 62.5vh;
+    top: 59.5vh;
     left: 14.4%;
+    border: 1px solid blue;
 }
 .ultpara p {
     color: #FFFFFF;
     text-align: left;
     font-size: 1.5vw;
+    font-family: 'Open Sans', sans-serif;
 }
 .vader {
     background-image: url(/assets/darth_vader-sem\ fundo.png);
@@ -584,6 +588,7 @@
 .politicas p {
     color: #FFFFFF;
     font-size: 1.5vw;
+    font-family: 'Open Sans', sans-serif;
 }
 .vadertext {
     height: 11.5vh;
@@ -846,7 +851,7 @@
         left: 9.6%;
     }
     .ultpara p {
-        font-size: 3.4vw;
+        font-size: 2.8vw;
     }
     .google {
         height: 6.4vh;
@@ -884,7 +889,7 @@
         top: 61.7vh;
     }
     .politicas p {
-        font-size: 3.4vw;
+        font-size: 2.8vw;
     }
     .vader {
         height: 58vh;
