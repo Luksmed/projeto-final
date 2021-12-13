@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 .fundo1 {    
-    background-image: url(/assets/header-back.png);
+    background-image: url(./assets/header-back.png);
     height: 133.6vh;
     width: 100%;
     position: relative;
