@@ -110,7 +110,7 @@
 }
 .fundo2 {
     background-image: url(./assets/Retângulo\ 2.png);
-    height: 230.4vh;
+    height: 230vh;
     width: 100%;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -485,7 +485,7 @@
 }
 .boxcoral {
     background-image: url(./assets/Retângulo\ 18.png);
-    height: 141.1vh;
+    height: 145.1vh;
     width: 63.9%;
     position: absolute;
     background-repeat: no-repeat;
