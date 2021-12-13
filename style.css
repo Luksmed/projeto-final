@@ -14,7 +14,7 @@
     z-index: 2;
 }
 .star {
-    background-image: url(/assets/star.png);
+    background-image: url(./assets/star.png);
     height: 18.7vh; 
     width: 23.8%;
     background-repeat: no-repeat;
@@ -24,7 +24,7 @@
     left: 19%;
 }
 .wars {
-    background-image: url(/assets/wars.png);
+    background-image: url(./assets/wars.png);
     height: 18.7vh;
     width: 26%;
     background-repeat: no-repeat;
@@ -34,7 +34,7 @@
     left: 64.7%;
 }
 .kylo {
-    background-image: url(/assets/Kylo-Ren-banner\ sem\ fundo.png);
+    background-image: url(./assets/Kylo-Ren-banner\ sem\ fundo.png);
     height: 163.5vh;
     width: 70.4%;
     background-repeat: no-repeat;
@@ -43,7 +43,7 @@
     left: 10%;
 }
 .legiao {
-    background-image: url(/assets/Grupo\ 4.png);
+    background-image: url(./assets/Grupo\ 4.png);
     height: 28.3vh;
     width: 9.1%;
     background-repeat: no-repeat;
@@ -53,7 +53,7 @@
     left: 79.1%;   
 }
 .boxvermelho {
-    background-image: url(/assets/strom\ trupe\ red.png);
+    background-image: url(./assets/strom\ trupe\ red.png);
     height: 63.5vh;
     width: 20.6%;
     background-repeat: no-repeat;
@@ -99,7 +99,7 @@
 }
 .sobremob {
     display: none;
-    background-image: url(/assets/Grupo\ sobre\ o\ jogoM.png);
+    background-image: url(./assets/Grupo\ sobre\ o\ jogoM.png);
     width: 80.5%;
     height: 45.9%;
     background-repeat: no-repeat;
@@ -109,7 +109,7 @@
     top: 84.5%;
 }
 .fundo2 {
-    background-image: url(/assets/Retângulo\ 2.png);
+    background-image: url(./assets/Retângulo\ 2.png);
     height: 230.4vh;
     width: 100%;
     background-repeat: no-repeat;
@@ -118,7 +118,7 @@
     z-index: 1;
 }
 .robo {
-    background-image: url(/assets/sta\ uo\ robot.png);
+    background-image: url(./assets/sta\ uo\ robot.png);
     height: 230.2vh;
     width: 42.3%;
     background-repeat: no-repeat;
@@ -126,7 +126,7 @@
     position: absolute;
 }
 .sobre {
-    background-image: url(/assets/Grupo\ sobre\ o\ jogo.png);
+    background-image: url(./assets/Grupo\ sobre\ o\ jogo.png);
     height: 39.8vh;
     width: 49.4%;
     left: 43.2%;
@@ -136,7 +136,7 @@
     background-size: 100% 100%;
 }
 .linha2 {
-    background-image: url(/assets/Linha\ 2.png);
+    background-image: url(./assets/Linha\ 2.png);
     height: 0.5vh;
     width: 78.2%;
     position: absolute;
@@ -146,7 +146,7 @@
     background-size: 100% 100%;
 }
 .lord {
-    background-image: url(/assets/lord\ sifh\ 2.png);
+    background-image: url(./assets/lord\ sifh\ 2.png);
     height: 134.8vh;
     width: 44%;
     position: absolute;
@@ -189,7 +189,7 @@
     color: #000000;
 }
 .rey {
-    background-image: url(/assets/rey\ star\ wars.png);
+    background-image: url(./assets/rey\ star\ wars.png);
     height: 121.6vh;
     width: 20.7%;
     position: absolute;
@@ -199,7 +199,7 @@
     left: 71.9%;   
 }
 .fundo3 {
-    background-image: url(/assets/Retângulo\ 3.png);
+    background-image: url(./assets/Retângulo\ 3.png);
     height: 375.2vh;
     width: 100%;
     background-repeat: no-repeat;
@@ -225,7 +225,7 @@
     
 }
 .atrib1 {
-    background-image: url(/assets/atrib1.png);
+    background-image: url(./assets/atrib1.png);
     height: 80.3vh;
     width: 42.9%;
     position: absolute;
@@ -235,7 +235,7 @@
     top: 49.6vh;
 }
 .atrib2 {
-    background-image: url(/assets/atrib2.png);
+    background-image: url(./assets/atrib2.png);
     height: 40.1vh;
     width: 21.3%;
     position: absolute;
@@ -245,7 +245,7 @@
     top: 49.6vh;
 }
 .atribhover {
-    background-image: url(/assets/Grupo\ novos\ graficos.png);
+    background-image: url(./assets/Grupo\ novos\ graficos.png);
     height: 43vh;
     width: 22.3%;
     position: absolute;
@@ -269,10 +269,10 @@
     color: transparent;
 }
 .atrib2:hover {
-    background-image: url(/assets/Grupo\ novos\ graficos.png);
+    background-image: url(./assets/Grupo\ novos\ graficos.png);
 }
 .atrib3 {
-    background-image: url(/assets/atrib3.png);
+    background-image: url(./assets/atrib3.png);
     height: 40.1vh;
     width: 21.3%;
     position: absolute;
@@ -282,7 +282,7 @@
     left: 71.3%;
 }
 .atrib4 {
-    background-image: url(/assets/atrib4.png);
+    background-image: url(./assets/atrib4.png);
     height: 40.1vh;
     width: 21.3%;
     position: absolute;
@@ -292,7 +292,7 @@
     left: 50.2%;
 }
 .atrib5 {
-    background-image: url(/assets/atrib5.png);
+    background-image: url(./assets/atrib5.png);
     height: 40.1vh;
     width: 21.3%;
     position: absolute;
@@ -302,7 +302,7 @@
     left: 71.3%;
 }
 .hierarquia {
-    background-image: url(/assets/star-wars_stormtrooper_hierarquia.png);
+    background-image: url(./assets/star-wars_stormtrooper_hierarquia.png);
     height: 158.4vh;
     width: 85.4%;
     position: absolute;
@@ -341,7 +341,7 @@
     letter-spacing: 0.07vw;
 }
 .trooper {
-    background-image: url(/assets/stortm_trooper_capa_preta-removebg-preview.png);
+    background-image: url(./assets/stortm_trooper_capa_preta-removebg-preview.png);
     height: 128.9vh;
     width: 27.9%;
     position: absolute;
@@ -352,7 +352,7 @@
     z-index: 3;
 }
 .fundo4 {
-    background-image: url(/assets/Retângulo\ 4.png);
+    background-image: url(./assets/Retângulo\ 4.png);
     height: 69.4vh;
     width: 100%;
     background-repeat: no-repeat;
@@ -476,7 +476,7 @@
     display: flex;
 }
 .fundo5 {
-    background-image: url(/assets/Retângulo\ 2.png);
+    background-image: url(./assets/Retângulo\ 2.png);
     height: 164.4vh;
     width: 100%;
     position: relative;
@@ -484,7 +484,7 @@
     background-size: 100% 100%;
 }
 .boxcoral {
-    background-image: url(/assets/Retângulo\ 18.png);
+    background-image: url(./assets/Retângulo\ 18.png);
     height: 141.1vh;
     width: 63.9%;
     position: absolute;
@@ -519,7 +519,7 @@
     font-family: 'Open Sans', sans-serif;
 }
 .vader {
-    background-image: url(/assets/darth_vader-sem\ fundo.png);
+    background-image: url(./assets/darth_vader-sem\ fundo.png);
     height: 154.5vh;
     width: 39.3%;
     position: absolute;
@@ -555,7 +555,7 @@
     width: 100%;
 }
 .linhavermelha {
-    background-image: url(/assets/Linha\ 10.png);
+    background-image: url(./assets/Linha\ 10.png);
     height: 0.5vh;
     width: 27.9%;
     position: absolute;
@@ -565,7 +565,7 @@
     left: 14.4%;
 }
 .logosw {
-    background-image: url(/assets/esta\ uo.png);
+    background-image: url(./assets/esta\ uo.png);
     height: 20.1vh;
     width: 13.4%;
     position: absolute;
@@ -601,7 +601,7 @@
 }
 @media only screen and (max-width: 600px) {
     .fundo1 {
-      background-image: url(/assets/cabeçalho\ mobile.png);   
+      background-image: url(./assets/cabeçalho\ mobile.png);   
       height: 106.8vh;   
     }
     .star {
